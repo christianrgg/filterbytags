@@ -60,7 +60,7 @@ nav {
 }
 
 .gg-search{
-    background-image: url("/Assets/Lupa_vector_20x20.svg");
+    background-image: url("./Assets/Lupa_vector_20x20.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
