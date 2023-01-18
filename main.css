@@ -51,14 +51,38 @@ nav {
 }
 
 .search {
+    display: flex;
     border: 1px solid #858585;
     background-color: transparent;
     width: 22.5rem;
     height: 2.5rem;
     align-items: center;
+    color: #858585;
+}
+
+.gg-search{
+    background-image: url("./Assets/Lupa_vector_20x20.svg");
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    width: 23px;
+    height: 23px;
+    opacity: 0.4;
+    margin: 0 10px 0 10px;
+}
+
+input {
+    background-color: transparent;
+    width: 20rem;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.125rem;
+    color: #FFFFFF;
 }
 
 input::placeholder {
-    text-align: center;
     font-size: 1.125rem;
+    
 }
