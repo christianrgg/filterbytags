@@ -47,4 +47,18 @@ nav {
 }
 .profile-link a {
     margin-right: 30px;
+    align-self: center;
+}
+
+.search {
+    border: 1px solid #858585;
+    background-color: transparent;
+    width: 22.5rem;
+    height: 2.5rem;
+    align-items: center;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 1.125rem;
 }
